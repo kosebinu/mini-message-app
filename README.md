@@ -1,4 +1,4 @@
-# Mini Messageboard
+# Mini MessageApp
 
 This is a simple and dynamic web application that allows users to post and view messages. This project demonstrates the use of **Node.js**, **Express**, and **EJS** to create a basic message app with a clean and responsive design.
 
