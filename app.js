@@ -33,7 +33,7 @@ app.get('/message/:id', (req, res) => {
   res.render('message', { title: 'Message Detail', message });
 });
 
-const PORT = 8000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
