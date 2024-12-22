@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+  
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin: 20px 0;
+}
+  
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+}
+  
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+  
+li:last-child {
+    border-bottom: none;
+}
+  
+button, a.button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+}
+  
+button:hover, a.button:hover {
+    background-color: #003f7f;
+}
+  
+a.button {
+    text-decoration: none;
+}
+  
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+form label {
+    margin: 10px 0 5px;
+}
+  
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+  
+form button {
+    margin-top: 15px;
+}
+  
+/* Footer */
+footer {
+    text-align: center;
+    margin: 20px 0;
+    color: #777;
+}
+  

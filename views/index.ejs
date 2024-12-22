@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Message Board</h1>
+    <ul>
+      <% messages.forEach((message, index) => { %>
+        <li>
+          <strong><%= message.user %>:</strong> <%= message.text %> 
+          <em>(<%= message.added.toLocaleString() %>)</em>
+          <a href="/message/<%= index %>" class="button">Open</a>
+        </li>
+      <% }) %>
+    </ul>
+    <a href="/new" class="button">Add a New Message</a>
+  </div>
+  <footer>
+    Made with ❤️ by Kosebinu
+  </footer>
+</body>
+</html>
