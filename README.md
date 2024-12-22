@@ -32,3 +32,6 @@ This is a simple and dynamic web application that allows users to post and view 
 Make sure you have the following installed:
 - **Node.js** (v14 or higher)
 - **npm** (Node Package Manager)
+
+## Deployment Link
+[![Deployment](https://img.shields.io/badge/Live%20App-Railway-blue)](https://mini-message-app-production-dd0d.up.railway.app)
